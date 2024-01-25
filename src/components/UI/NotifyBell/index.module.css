@@ -1,0 +1,7 @@
+.NotifyBell--clickable {
+  cursor: pointer;
+}
+
+.NotifyBell--active {
+  background-color: lightblue;
+}

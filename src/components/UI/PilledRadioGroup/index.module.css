@@ -1,0 +1,41 @@
+.PilledRadioGroup {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 50px;
+  padding: 0 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+}
+
+.PilledRadioGroup label {
+  cursor: pointer;
+  margin: 0 7px;
+  color: #736b7e;
+  transition: all 0.2s;
+}
+
+.PilledRadioGroup label:hover {
+  color: #1f1f1f;
+}
+
+.PilledRadioGroup input[type="radio"] {
+  display: none;
+}
+
+.PilledRadioGroup input[type="radio"]:checked + label {
+  padding: 8px 14px;
+  border-radius: 22px;
+  background-color: lightblue;
+  color: black;
+}
+
+.PilledRadioGroup input[type="radio"]:checked + label:first-of-type {
+  margin-left: 0px;
+}
+
+.PilledRadioGroup input[type="radio"]:checked + label:last-of-type {
+  margin-right: 0px;
+}
